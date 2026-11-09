@@ -1,0 +1,21 @@
+{
+  "name": "Kanz — Budget & patrimoine",
+  "short_name": "Kanz",
+  "description": "Dépenses, budget par enveloppes et patrimoine, sur votre appareil.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#102422",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ajouter une dépense", "short_name": "Ajouter", "url": "./#/ajouter", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Budget du mois", "short_name": "Budget", "url": "./#/budget", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
